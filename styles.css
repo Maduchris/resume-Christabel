@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f049;
+}
+
+header {
+    text-align: center;
+    background-color: #450658;
+    color: #fff;
+    padding: 25px;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    background-color: #f0f0f049;
+    margin: 20px;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+header {
+    position: relative; /* Create a positioning context for the image */
+    background-color: rgba(48, 30, 53, 0.939); /* Background color for the header */
+    padding: 25px;
+  }
+  
+  header img {
+    max-width: 70px; /* Adjust the image size as needed */
+    position: absolute;
+    top: 15px; /* Adjust the top position to your preference */
+    left: 10px; /* Adjust the left position to your preference */
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    margin: 10px 0;
+  }
+  
+  header p {
+    font-style: italic;
+    margin: 0;
+  }
+  
+
+
+ /* About me section */
+ #about {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #about ul {
+    list-style: none;
+    padding: 0;
+    font-size: 2em;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #about li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+  }
+  
+  #about img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  #about h2 {
+    font-size: 3em;
+  }
+  
+  #about p {
+    margin: 0;
+  }
+  
+  #contact {
+    background-color: #f4f4f483;
+    padding: 25px;
+    text-align: center;
+  }
+  
+  #contact h2 {
+    color: #a583a8;
+    font-size: 2.5em;
+  }
+  
+  #contact ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #contact li {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+  #contact li strong {
+    color: #450658;
+    margin-right: 10px;
+  }
+  
+  /* Style for links (if you want to link the email and phone) */
+  #contact li a {
+    text-decoration: none;
+    color: #450658;
+  }
+  
+  #contact li a:hover {
+    text-decoration: underline;
+  }
+  
